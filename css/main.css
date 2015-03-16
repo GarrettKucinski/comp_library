@@ -1,0 +1,107 @@
+.mint-green {
+  background: #DEF4E5;
+  color: #45c16c; }
+  .mint-green:after {
+    content: "mint-green"; }
+
+.lilac {
+  background: #DCE0F2;
+  color: #475cbb; }
+  .lilac:after {
+    content: "lilac"; }
+
+.sea-green {
+  background: #DCF0EF;
+  color: #4db3ae; }
+  .sea-green:after {
+    content: "sea-green"; }
+
+.pale-orange {
+  background: #FFE3DB;
+  color: #ff440f; }
+  .pale-orange:after {
+    content: "pale-orange"; }
+
+.latte-foam {
+  background: #F8EDD0;
+  color: #dba821; }
+  .latte-foam:after {
+    content: "latte-foam"; }
+
+.light-gray {
+  background: #EAEBEC;
+  color: #7f858b; }
+  .light-gray:after {
+    content: "light-gray"; }
+
+.cucumber {
+  background: #C5E2CE;
+  color: #499260; }
+  .cucumber:after {
+    content: "cucumber"; }
+
+.powder-blue {
+  background: #D6EEF5;
+  color: #32aacd; }
+  .powder-blue:after {
+    content: "powder-blue"; }
+
+.mint-green, .lilac, .sea-green, .pale-orange, .latte-foam, .light-gray, .cucumber, .powder-blue {
+  width: 150px;
+  height: 100px;
+  font-weight: bold;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  position: relative; }
+  .mint-green:after, .lilac:after, .sea-green:after, .pale-orange:after, .latte-foam:after, .light-gray:after, .cucumber:after, .powder-blue:after {
+    position: absolute;
+    top: 40px;
+    width: 100px;
+    left: 90px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans-rounded", "Rockwell", serif; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1200px;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.color-palette {
+  width: 23.72881%;
+  float: left;
+  margin-bottom: 1.69492%; }
+  .color-palette:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  .color-palette:nth-child(4n + 2) {
+    margin-left: 25.42373%;
+    margin-right: -100%;
+    clear: none; }
+  .color-palette:nth-child(4n + 3) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none; }
+  .color-palette:nth-child(4n + 4) {
+    margin-left: 76.27119%;
+    margin-right: -100%;
+    clear: none; }
+
+.style-guide-heading {
+  font-size: 30px;
+  font-size: 3rem;
+  color: lightgray; }
+
+/*# sourceMappingURL=main.css.map */

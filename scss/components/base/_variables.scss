@@ -1,0 +1,48 @@
+
+// ========
+// Define breakpoints for responsive design
+// ========
+
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+// ========
+// Define map for Susy grid
+// ========
+
+$susy: (
+	columns: 12,
+	container: 1200px,
+	global-box-sizing: border-box,
+	use-custom: (rem: true)
+	);
+
+// ========
+// Application color palettes
+// ========
+
+$palettes: (
+	main: (
+		mint-green: #DEF4E5,
+		lilac: #DCE0F2,
+		sea-green: #DCF0EF,
+		pale-orange: #FFE3DB,
+		latte-foam: #F8EDD0,
+		light-gray: #EAEBEC,
+		cucumber: #C5E2CE,
+		powder-blue: #D6EEF5
+		)
+	);
+
+
+@each $name, $color in map-get($palettes, main) {
+	.#{$name} {
+		background: $color;
+		color: darken($color, 40%);
+		@extend %color-palette-defaults;
+		&:after {
+			content: '#{$name}';
+		}
+	}
+}

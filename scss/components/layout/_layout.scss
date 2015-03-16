@@ -1,0 +1,10 @@
+@include border-box-sizing;
+
+.container {
+	@include container();
+}
+
+.color-palette {
+	@include gallery(3 of 12);
+	margin-bottom: gutter(12);
+}

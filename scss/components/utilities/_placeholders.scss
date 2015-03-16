@@ -1,0 +1,20 @@
+%color-palette-defaults {
+	width: 150px;
+	height: 100px;
+	font-weight: bold;
+	font-family: $body-font;
+	text-align: center;
+	position: relative;
+	&:after {
+		position: absolute;
+		top: 40px;
+		width: 100px;
+		left: 90px;
+	}
+}
+
+// Define Heading styles
+
+%base-heading-styles {
+	font-family: $header-font;
+}

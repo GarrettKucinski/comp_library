@@ -1,0 +1,11 @@
+{
+  "name": "comp_library",
+  "version": "1.0.0",
+  "description": "A library of components and styles to bootstrap an application for development. It consists of modular architecture, coding best practices, DRY principles and is set up for ease and speed of development and maintenance.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Garrett Kucinski",
+  "license": "ISC"
+}
