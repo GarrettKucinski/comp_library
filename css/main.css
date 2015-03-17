@@ -196,7 +196,8 @@ section {
   margin: 80px 0; }
 
 body {
-  padding: 10px; }
+  padding: 10px;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 h1 {
   font-size: 39px;
@@ -246,10 +247,29 @@ body {
   box-sizing: border-box; }
 
 .container {
-  max-width: 1200px;
-  max-width: 75rem;
+  max-width: 1600px;
+  max-width: 100rem;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%), linear-gradient(to bottom, #000 1px, transparent 1px);
+  background-size: 8.47458%, 100% 24px;
+  background-origin: content-box, border-box;
+  background-clip: content-box, border-box;
+  background-position: left top; }
+  @media (min-width: 480px) and (max-width: 768px) {
+    .container {
+      background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%), linear-gradient(to bottom, #000 1px, transparent 1px);
+      background-size: 26.31579%, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; } }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .container {
+      background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, transparent 80%), linear-gradient(to bottom, #000 1px, transparent 1px);
+      background-size: 12.82051%, 100% 24px;
+      background-origin: content-box, border-box;
+      background-clip: content-box, border-box;
+      background-position: left top; } }
   .container:after {
     content: " ";
     display: block;
@@ -295,6 +315,9 @@ body {
   content: "";
   display: table;
   clear: both; }
+
+.app-headers .body-copy {
+  margin-top: 30px; }
 
 .style-guide-heading {
   font-size: 30px;

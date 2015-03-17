@@ -3,6 +3,12 @@
 	@include cf;
 }
 
+.app-headers {
+	.body-copy {
+		margin-top: 30px;
+	}
+}
+
 .style-guide-heading {
 	@include font-size(3);
 	padding-bottom: 30px;

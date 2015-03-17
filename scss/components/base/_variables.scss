@@ -12,8 +12,9 @@ $desktop: 1200px;
 
 $susy: (
 	columns: 12,
-	container: 1200px,
+	container: 1600px,
 	global-box-sizing: border-box,
+	debug: (image: show),
 	use-custom: (rem: true)
 	);
 
