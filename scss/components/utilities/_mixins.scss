@@ -18,31 +18,49 @@
   font-size: $sizeValue + rem;
 }
 
-@mixin button-base($radius: 10px, $padding: 10px, $color: $white, $bg: $autumn-gourd, $border: none) {
-  border-radius: $radius;
-  padding: $padding;
-  color: $color;
-  background: $bg;
-  border: $border;
-  outline: none;
-  cursor: pointer;
-  transition: all .5s;
-  &:hover {
-    background: darken($bg, 10%);
-    color: white;
-  }
+// ========
+// Generic component creation mixin -- mainly used as a base to create custom components
+// ========
+
+@mixin comp-gen($palette) {
+	@each $name, $color in map-get($palettes, $palette) {
+		.#{$name}.#{$palette} {
+			background: $color;
+			color: darken($color, 40%);
+			@content;
+			&:after {
+				content: '#{$name}';
+			}
+		}
+	}
+}
+
+// ========
+// Custom Button Creation Mixin -- generates classes to be applied to any html element
+// ========
+
+@mixin button-base() {
+  @include comp-gen(buttons) {
+		@extend %button-defaults;
+	}
 }
 
 @mixin custom-buttons($map) {
+  @include button-base();
   @each $button, $button-color in $map {
-    .#{$button}-button {
-      @include button-base($bg: $button-color, $color: darken($button-color, 40%), $radius: 5px);
-      @content;
+    .#{$button}:hover {
+    	border: 1px solid darken($button-color, 40%);
     }
   }
 }
 
-@include custom-buttons(map-get($palettes, buttons)) {
-	width: 100px;
-	font-weight: bold;
+@include custom-buttons(map-get($palettes, buttons));
+
+@include comp-gen(main) {
+	@extend %color-palette-defaults;
 }
+
+@include comp-gen(alerts) {
+	@extend %alert-panel-defaults;
+}
+
