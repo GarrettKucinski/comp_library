@@ -1,6 +1,7 @@
 // This is the main stylesheet
 
-@import	"../bower_components/susy/sass/_susy.scss",
+@import	"../bower_components/meyer-reset/stylesheets/_meyer-reset.scss",
+				"../bower_components/susy/sass/_susy.scss",
 				"components/base/variables",
 				"../bower_components/vertical-rhythms-without-compass/_vertical-rhythms.scss",
 				"components/base/typography",

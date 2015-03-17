@@ -1,3 +1,35 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 .mint-green.main, .lilac.main, .sea-green.main, .pale-orange.main, .latte-foam.main, .light-gray.main, .cucumber.main, .powder-blue.main {
   height: 100px;
   font-weight: bold;
@@ -21,6 +53,7 @@
   border-radius: 5px;
   border: 1px solid #ffffff;
   padding: 10px;
+  min-width: 100px;
   text-align: center;
   font-size: 1rem;
   font-weight: bold;
@@ -52,21 +85,40 @@ h1, h2, h3, h4, h5, h6 {
 
 .disabled.buttons {
   background: #EAEBEC;
-  color: #7f858b; }
+  color: #7f858b;
+  cursor: default; }
   .disabled.buttons:after {
     content: "disabled"; }
+  .disabled.buttons:hover {
+    border: 1px solid #ffffff; }
 
 .cancel:hover {
   border: 1px solid #ff440f; }
+.cancel:active {
+  background: #ff6c42;
+  color: #ffffff;
+  transition: 0.1s; }
 
 .confirm:hover {
   border: 1px solid #45c16c; }
+.confirm:active {
+  background: #6bce8b;
+  color: #ffffff;
+  transition: 0.1s; }
 
 .info:hover {
   border: 1px solid #32aacd; }
+.info:active {
+  background: #5bbbd7;
+  color: #ffffff;
+  transition: 0.1s; }
 
 .disabled:hover {
   border: 1px solid #7f858b; }
+.disabled:active {
+  background: #9a9ea3;
+  color: #ffffff;
+  transition: 0.1s; }
 
 .mint-green.main {
   background: #DEF4E5;
@@ -143,6 +195,51 @@ h1, h2, h3, h4, h5, h6 {
 section {
   margin: 80px 0; }
 
+body {
+  padding: 10px; }
+
+h1 {
+  font-size: 39px;
+  font-size: 2.44144rem;
+  line-height: 42px;
+  line-height: 2.625rem; }
+
+h2 {
+  font-size: 31px;
+  font-size: 1.95313rem;
+  line-height: 36px;
+  line-height: 2.25rem; }
+
+h3 {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 30px;
+  line-height: 1.875rem; }
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 24px;
+  line-height: 1.5rem; }
+
+h5 {
+  font-size: 13px;
+  font-size: 0.8rem;
+  line-height: 18px;
+  line-height: 1.125rem; }
+
+h6 {
+  font-size: 10px;
+  font-size: 0.64rem;
+  line-height: 12px;
+  line-height: 0.75rem; }
+
+body {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -202,6 +299,7 @@ section {
 .style-guide-heading {
   font-size: 30px;
   font-size: 3rem;
+  padding-bottom: 30px;
   color: lightgray; }
 
 /*# sourceMappingURL=main.css.map */

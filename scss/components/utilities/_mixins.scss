@@ -13,6 +13,25 @@
   }
 }
 
+// ==========
+// TYPE-SCALE
+// -----
+// Gets font-size and baseline from typography map located
+// in variables/typography and creates the necessary
+// font-size and line-height property in CSS with the
+// compass vertical rhythm.
+//
+// This uses the @include adjust-font-size-to mixin and
+// requires Compass Vertical Rhythm to be used.
+//
+// https://medium.com/p/8e51498c3713
+// ==========
+@mixin type-scale($scale, $map: $type-scale) {
+  $font-size: map-get(map-get($map, $scale), font-size);
+  $base-lines: map-get(map-get($map, $scale), base-lines);
+  @include adjust-font-size-to($font-size, $base-lines);
+}
+
 @mixin font-size($sizeValue: 1.6) {
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
@@ -31,6 +50,12 @@
 			&:after {
 				content: '#{$name}';
 			}
+			@if $name == disabled {
+			cursor: default;
+				&:hover {
+					border: 1px solid $app-background;
+				}
+			}
 		}
 	}
 }
@@ -48,8 +73,15 @@
 @mixin custom-buttons($map) {
   @include button-base();
   @each $button, $button-color in $map {
-    .#{$button}:hover {
-    	border: 1px solid darken($button-color, 40%);
+    .#{$button} {
+	    &:hover {
+	    	border: 1px solid darken($button-color, 40%);
+	    }
+	    &:active {
+	    	background: darken($button-color, 30%);
+	    	color: $white;
+	    	transition: 0.1s;
+	    }
     }
   }
 }
