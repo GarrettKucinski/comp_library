@@ -14,5 +14,14 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "susy": "~2.2.2"
+  },
+  "dependencies": {
+    "susy": "~2.2.2",
+    "meyer-reset": "*",
+    "vertical-rhythms-without-compass": "~1.0.1",
+    "breakpoint-sass": "~2.5.0"
+  }
 }

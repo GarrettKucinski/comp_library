@@ -7,7 +7,12 @@
 	<script src="//use.typekit.net/eqj3jsb.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
-	<link rel="stylesheet" href="../css/main.css">
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- build:css(/css) main.css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+	<base href="/">
 </head>
 <body>
 
@@ -17,7 +22,6 @@
 
 		<section class="app-headers">
 			<h1 class="style-guide-heading">// Typography</h1>
-
 			<h1>hello there! I'm an H1</h1>
 			<h2>hello there! I'm an H2</h2>
 			<h3>hello there! I'm an H3</h3>
@@ -34,7 +38,6 @@ applications this should be the correct size.</pre></p>
 
 		<section class="app-colors">
 			<h1 class="style-guide-heading">// Color Palette</h1>
-
 			<div class="gallery-wrap">
 				<div class="color-palette mint-green main"></div>
 				<div class="color-palette lilac main"></div>
@@ -51,11 +54,12 @@ applications this should be the correct size.</pre></p>
 
 		<section class="app-buttons">
 			<h1 class="style-guide-heading">// Buttons</h1>
-
-			<button class="confirm buttons"></button>
-			<button class="cancel buttons"></button>
-			<button class="info buttons"></button>
-			<button class="disabled buttons"></button>
+			<div class="button-wrap">
+				<button class="confirm buttons"></button>
+				<button class="cancel buttons"></button>
+				<button class="info buttons"></button>
+				<button class="disabled buttons"></button>
+			</div>
 		</section>
 
 		<!-- Alert Panel Styles -->
@@ -71,6 +75,9 @@ applications this should be the correct size.</pre></p>
 		</section>
 
 	</div>
+
+	<!-- bower:js -->
+	<!-- endbower -->
 
 </body>
 </html>

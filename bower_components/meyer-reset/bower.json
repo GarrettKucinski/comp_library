@@ -1,6 +1,7 @@
 {
   "name": "meyer-reset",
   "description": "Eric Meyer CSS reset in Sass",
+  "main": "stylesheets/_meyer-reset.scss",
   "version": "2.0.1",
   "homepage": "https://github.com/adamstac/meyer-reset"
 }
