@@ -1,15 +1,7 @@
 @include border-box-sizing;
 
 .container {
-	@include breakpoint($tablet $mobile) {
-		@include show-grid(4);
-	}
-	@include breakpoint($desktop $tablet) {
-		@include show-grid(8);
-	}
 	@include container();
-
-
 }
 
 .color-palette {
