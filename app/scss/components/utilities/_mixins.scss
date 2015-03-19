@@ -54,7 +54,17 @@
 				&:hover {
 					border: 1px solid $app-background;
 				}
+        &:active {
+          background: $color;
+          color: darken($color, 40%);
+        }
 			}
+      @if $palette == alerts {
+        border: 1px solid darken($color, 40%);
+        &:after {
+          content: 'This is a(n) #{$name} alert!';
+        }
+      }
 			@content;
 		}
 	}
@@ -86,16 +96,6 @@
 	    }
     }
   }
-}
-
-@include custom-buttons(map-get($palettes, buttons));
-
-@include comp-gen(main) {
-	@extend %color-palette-defaults;
-}
-
-@include comp-gen(alerts) {
-	@extend %alert-panel-defaults;
 }
 
 // ==========

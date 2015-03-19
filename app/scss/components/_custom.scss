@@ -1,16 +1,21 @@
 
+@include custom-buttons(map-get($palettes, buttons));
+
+
+@include comp-gen(main) {
+	@extend %color-palette-defaults;
+}
+
+@include comp-gen(alerts) {
+	@extend %alert-panel-defaults;
+}
+
 .app-colors {
 	@include cf;
 }
 
-.app-headers {
-	.body-copy {
-		margin-top: 30px;
-	}
-}
-
 .style-guide-heading {
 	@include font-size(3);
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 	color: lightgray;
 }
