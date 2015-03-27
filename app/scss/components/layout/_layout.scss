@@ -9,19 +9,56 @@
 }
 
 .header-wrap {
-	@include span(5 of 12);
+	margin-bottom: 20px;
 }
 
-.body-copy {
+.header-wrap, .body-copy {
 	@include span(5 of 12);
+	@include breakpoint ($mobile $tablet) {
+		@include span(6);
+	}
+	@include breakpoint(max-width $mobile) {
+		@include span(12);
+	}
 }
+
 
 .color-palette {
-	@include gallery(3);
-	margin-bottom: gutter();
+	@include breakpoint(min-width $tablet) {
+		@include gallery(3);
+		margin-bottom: gutter();
+	}
+	@include breakpoint ($mobile $tablet) {
+		@include gallery(6);
+		margin-bottom: gutter();
+	}
+	@include breakpoint(max-width $mobile) {
+		@include full;
+	}
+}
+
+.button-wrap {
+	@include cf;
+}
+
+.buttons {
+	@include breakpoint($mobile $tablet) {
+		@include gallery(6);
+		margin-bottom: gutter();
+	}
+	@include breakpoint(max-width $mobile) {
+		@include full;
+		margin-bottom: gutter();
+	}
 }
 
 .alerts {
-	@include gallery(6);
-	margin-bottom: gutter();
+	@include breakpoint(min-width $mobile) {
+		@include gallery(6);
+		margin-bottom: gutter();
+	}
+	@include breakpoint(max-width $mobile) {
+		@include full;
+		margin-bottom: gutter();
+	}
 }

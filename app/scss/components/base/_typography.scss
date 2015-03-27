@@ -32,8 +32,8 @@ $round-to-nearest-half-line: true;
 $rhythm-unit: "rem";
 
 // Sets different font families for us with
-$body-font:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$header-font:"museo-sans-rounded", 'Rockwell', serif;
+$body-font:"proxima-nova-alt", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header-font:"jubilat", 'Rockwell', serif;
 $code-font:'Anonymous Pro', 'Source Code Pro';
 
 // ==========
@@ -90,5 +90,5 @@ $type-scale: (
   base: (
    font-size: $base-font-size,
    base-lines: 1
-   ),
+   )
   );

@@ -12,8 +12,8 @@
 	<!-- build:css(/css) main.css -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- endbuild -->
-	<base href="/">
-</head>
+	<script src="scripts/custom.js"></script>
+	<base href="/"></head>
 <body>
 
 	<div class="container">
@@ -31,27 +31,28 @@
 				<h6>hello there! I'm an H6</h6>
 			</div>
 
-			<p class="body-copy">This is an example of body copy, it is set to 16px by default.
+			<p class="body-copy">
+				This is an example of body copy, it is set to 16px by default.
 It is possible to override the base font size if need be but for most
 applications this should be the correct size. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis consectetur veniam quo, quia fugit quis similique nulla sapiente sed ipsam delectus quam, ullam tempore iusto eveniet, maxime reprehenderit, atque nam.
-</p>
+			</p>
 		</section>
 
 		<!-- Full color palette available for prototyping -->
 
-		<section class="app-colors">
-			<h1 class="style-guide-heading">// Color Palette</h1>
-			<div class="gallery-wrap">
-				<div class="color-palette mint-green main"></div>
-				<div class="color-palette lilac main"></div>
-				<div class="color-palette sea-green main"></div>
-				<div class="color-palette pale-orange main"></div>
-				<div class="color-palette latte-foam main"></div>
-				<div class="color-palette light-gray main"></div>
-				<div class="color-palette cucumber main"></div>
-				<div class="color-palette powder-blue main"></div>
-			</div>
-		</section>
+				<section class="app-colors">
+					<h1 class="style-guide-heading">// Color Palette</h1>
+					<div class="gallery-wrap">
+						<div class="color-palette mint-green main"></div>
+						<div class="color-palette lilac main"></div>
+						<div class="color-palette sea-green main"></div>
+						<div class="color-palette pale-orange main"></div>
+						<div class="color-palette latte-foam main"></div>
+						<div class="color-palette light-gray main"></div>
+						<div class="color-palette cucumber main"></div>
+						<div class="color-palette powder-blue main"></div>
+					</div>
+				</section>
 
 		<!-- Button styles  -->
 
@@ -70,10 +71,18 @@ applications this should be the correct size. Lorem ipsum dolor sit amet, consec
 		<section class="app-alerts">
 			<h1 class="style-guide-heading">// Alerts</h1>
 			<div class="alert-wrap">
-				<div class="success alerts"></div>
-				<div class="warning alerts"></div>
-				<div class="message alerts"></div>
-				<div class="error alerts"></div>
+				<div class="success alerts">
+					<span class="iconic" data-glyph="circle-x"></span>
+				</div>
+				<div class="warning alerts">
+					<span class="iconic" data-glyph="circle-x"></span>
+				</div>
+				<div class="message alerts">
+					<span class="iconic" data-glyph="circle-x"></span>
+				</div>
+				<div class="error alerts">
+					<span class="iconic" data-glyph="circle-x"></span>
+				</div>
 			</div>
 		</section>
 

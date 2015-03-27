@@ -1,0 +1,3064 @@
+@font-face {
+  font-family: 'Iconic';
+  src: url("../fonts/iconic-sm.eot");
+  src: url("../fonts/iconic-sm.eot?#iconic-sm") format("embedded-opentype"), url("../fonts/iconic-sm.woff") format("woff"), url("../fonts/iconic-sm.ttf") format("truetype"), url("../fonts/iconic-sm.otf") format("opentype"), url("../fonts/iconic-sm.svg#iconic-sm") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Iconic';
+  src: url("../fonts/iconic-md.eot");
+  src: url("../fonts/iconic-md.eot?#iconic-md") format("embedded-opentype"), url("../fonts/iconic-md.woff") format("woff"), url("../fonts/iconic-md.ttf") format("truetype"), url("../fonts/iconic-md.otf") format("opentype"), url("../fonts/iconic-md.svg#iconic-md") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Iconic';
+  src: url("../fonts/iconic-lg.eot");
+  src: url("../fonts/iconic-lg.eot?#iconic-lg") format("embedded-opentype"), url("../fonts/iconic-lg.woff") format("woff"), url("../fonts/iconic-lg.ttf") format("truetype"), url("../fonts/iconic-lg.otf") format("opentype"), url("../fonts/iconic-lg.svg#iconic-lg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+/* line 25, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-text-replace {
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 29, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-text-replace:before {
+  width: 1em;
+  text-align: center;
+}
+
+/* line 34, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph]:before {
+  position: relative;
+  top: 1px;
+  font-family: 'Iconic';
+  display: inline-block;
+  speak: none;
+  line-height: 1;
+  vertical-align: baseline;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 49, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph]:empty:before {
+  width: 1em;
+  text-align: center;
+  box-sizing: content-box;
+}
+/* line 55, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-sm:before, .iconic[data-glyph].iconic-md:before, .iconic[data-glyph].iconic-lg:before, .iconic[data-glyph].iconic-icon-sm:before, .iconic[data-glyph].iconic-icon-md:before, .iconic[data-glyph].iconic-icon-lg:before {
+  font-style: normal;
+}
+/* line 64, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-sm:before {
+  font-weight: 400;
+  font-size: 16px;
+}
+/* line 69, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-md:before {
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 74, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-lg:before {
+  font-weight: 800;
+  font-size: 128px;
+}
+/* line 79, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-icon-sm:before {
+  font-weight: 400;
+}
+/* line 83, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-icon-md:before {
+  font-weight: 500;
+}
+/* line 87, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-icon-lg:before {
+  font-weight: 800;
+}
+/* line 91, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-size-sm:before {
+  font-size: 16px;
+}
+/* line 95, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-size-md:before {
+  font-size: 32px;
+}
+/* line 99, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-size-lg:before {
+  font-size: 128px;
+}
+/* line 103, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-align-left:before {
+  text-align: left;
+}
+/* line 106, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-align-right:before {
+  text-align: right;
+}
+/* line 109, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-align-center:before {
+  text-align: center;
+}
+/* line 113, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-flip-horizontal:before {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+/* line 119, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-flip-vertical:before {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(1, -1);
+}
+/* line 125, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph].iconic-flip-horizontal-vertical:before {
+  -webkit-transform: scale(-1, -1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, -1);
+}
+
+/* line 133, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=account-login]:before {
+  content: '\e000';
+}
+
+/* line 137, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=account-logout]:before {
+  content: '\e001';
+}
+
+/* line 141, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=action-redo]:before {
+  content: '\e002';
+}
+
+/* line 145, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=action-undo]:before {
+  content: '\e003';
+}
+
+/* line 149, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=align-center]:before {
+  content: '\e004';
+}
+
+/* line 153, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=align-left]:before {
+  content: '\e005';
+}
+
+/* line 157, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=align-right]:before {
+  content: '\e006';
+}
+
+/* line 161, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=aperture]:before {
+  content: '\e007';
+}
+
+/* line 165, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-acute]:before {
+  content: '\e008';
+}
+
+/* line 169, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-angled]:before {
+  content: '\e009';
+}
+
+/* line 173, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-large-acute]:before {
+  content: '\e00a';
+}
+
+/* line 177, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-large-angled]:before {
+  content: '\e00b';
+}
+
+/* line 181, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-large-oblique]:before {
+  content: '\e00c';
+}
+
+/* line 185, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-large]:before {
+  content: '\e00d';
+}
+
+/* line 189, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill-oblique]:before {
+  content: '\e00e';
+}
+
+/* line 193, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-fill]:before {
+  content: '\e00f';
+}
+
+/* line 197, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-acute]:before {
+  content: '\e010';
+}
+
+/* line 201, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-angled]:before {
+  content: '\e011';
+}
+
+/* line 205, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-large-acute]:before {
+  content: '\e012';
+}
+
+/* line 209, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-large-angled]:before {
+  content: '\e013';
+}
+
+/* line 213, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-large-oblique]:before {
+  content: '\e014';
+}
+
+/* line 217, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-large]:before {
+  content: '\e015';
+}
+
+/* line 221, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill-oblique]:before {
+  content: '\e016';
+}
+
+/* line 225, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-fill]:before {
+  content: '\e017';
+}
+
+/* line 229, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line-acute]:before {
+  content: '\e018';
+}
+
+/* line 233, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line-large-acute]:before {
+  content: '\e019';
+}
+
+/* line 237, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line-large-oblique]:before {
+  content: '\e01a';
+}
+
+/* line 241, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line-large]:before {
+  content: '\e01b';
+}
+
+/* line 245, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line-oblique]:before {
+  content: '\e01c';
+}
+
+/* line 249, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-left-line]:before {
+  content: '\e01d';
+}
+
+/* line 253, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line-acute]:before {
+  content: '\e01e';
+}
+
+/* line 257, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line-large-acute]:before {
+  content: '\e01f';
+}
+
+/* line 261, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line-large-oblique]:before {
+  content: '\e020';
+}
+
+/* line 265, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line-large]:before {
+  content: '\e021';
+}
+
+/* line 269, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line-oblique]:before {
+  content: '\e022';
+}
+
+/* line 273, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-line]:before {
+  content: '\e023';
+}
+
+/* line 277, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-acute]:before {
+  content: '\e024';
+}
+
+/* line 281, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-angled]:before {
+  content: '\e025';
+}
+
+/* line 285, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-large-acute]:before {
+  content: '\e026';
+}
+
+/* line 289, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-large-angled]:before {
+  content: '\e027';
+}
+
+/* line 293, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-large-oblique]:before {
+  content: '\e028';
+}
+
+/* line 297, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-large]:before {
+  content: '\e029';
+}
+
+/* line 301, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill-oblique]:before {
+  content: '\e02a';
+}
+
+/* line 305, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-fill]:before {
+  content: '\e02b';
+}
+
+/* line 309, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line-acute]:before {
+  content: '\e02c';
+}
+
+/* line 313, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line-large-acute]:before {
+  content: '\e02d';
+}
+
+/* line 317, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line-large-oblique]:before {
+  content: '\e02e';
+}
+
+/* line 321, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line-large]:before {
+  content: '\e02f';
+}
+
+/* line 325, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line-oblique]:before {
+  content: '\e030';
+}
+
+/* line 329, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-bottom-right-line]:before {
+  content: '\e031';
+}
+
+/* line 333, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-acute]:before {
+  content: '\e032';
+}
+
+/* line 337, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-angled]:before {
+  content: '\e033';
+}
+
+/* line 341, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-large-acute]:before {
+  content: '\e034';
+}
+
+/* line 345, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-large-angled]:before {
+  content: '\e035';
+}
+
+/* line 349, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-large-oblique]:before {
+  content: '\e036';
+}
+
+/* line 353, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-large]:before {
+  content: '\e037';
+}
+
+/* line 357, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill-oblique]:before {
+  content: '\e038';
+}
+
+/* line 361, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-fill]:before {
+  content: '\e039';
+}
+
+/* line 365, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line-acute]:before {
+  content: '\e03a';
+}
+
+/* line 369, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line-large-acute]:before {
+  content: '\e03b';
+}
+
+/* line 373, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line-large-oblique]:before {
+  content: '\e03c';
+}
+
+/* line 377, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line-large]:before {
+  content: '\e03d';
+}
+
+/* line 381, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line-oblique]:before {
+  content: '\e03e';
+}
+
+/* line 385, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-left-line]:before {
+  content: '\e03f';
+}
+
+/* line 389, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-left-fill-acute]:before {
+  content: '\e040';
+}
+
+/* line 393, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-left-fill-angled]:before {
+  content: '\e041';
+}
+
+/* line 397, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-left-fill]:before {
+  content: '\e042';
+}
+
+/* line 401, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-left-line]:before {
+  content: '\e043';
+}
+
+/* line 405, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-right-fill-acute]:before {
+  content: '\e044';
+}
+
+/* line 409, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-right-fill-angled]:before {
+  content: '\e045';
+}
+
+/* line 413, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-right-fill]:before {
+  content: '\e046';
+}
+
+/* line 417, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-bottom-right-line]:before {
+  content: '\e047';
+}
+
+/* line 421, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-bottom-fill-acute]:before {
+  content: '\e048';
+}
+
+/* line 425, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-bottom-fill-angled]:before {
+  content: '\e049';
+}
+
+/* line 429, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-bottom-fill]:before {
+  content: '\e04a';
+}
+
+/* line 433, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-bottom-line]:before {
+  content: '\e04b';
+}
+
+/* line 437, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-top-fill-acute]:before {
+  content: '\e04c';
+}
+
+/* line 441, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-top-fill-angled]:before {
+  content: '\e04d';
+}
+
+/* line 445, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-top-fill]:before {
+  content: '\e04e';
+}
+
+/* line 449, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-left-top-line]:before {
+  content: '\e04f';
+}
+
+/* line 453, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-bottom-fill-acute]:before {
+  content: '\e050';
+}
+
+/* line 457, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-bottom-fill-angled]:before {
+  content: '\e051';
+}
+
+/* line 461, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-bottom-fill]:before {
+  content: '\e052';
+}
+
+/* line 465, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-bottom-line]:before {
+  content: '\e053';
+}
+
+/* line 469, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-top-fill-acute]:before {
+  content: '\e054';
+}
+
+/* line 473, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-top-fill-angled]:before {
+  content: '\e055';
+}
+
+/* line 477, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-top-fill]:before {
+  content: '\e056';
+}
+
+/* line 481, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-right-top-line]:before {
+  content: '\e057';
+}
+
+/* line 485, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-left-fill-acute]:before {
+  content: '\e058';
+}
+
+/* line 489, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-left-fill-angled]:before {
+  content: '\e059';
+}
+
+/* line 493, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-left-fill]:before {
+  content: '\e05a';
+}
+
+/* line 497, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-left-line]:before {
+  content: '\e05b';
+}
+
+/* line 501, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-right-fill-acute]:before {
+  content: '\e05c';
+}
+
+/* line 505, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-right-fill-angled]:before {
+  content: '\e05d';
+}
+
+/* line 509, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-right-fill]:before {
+  content: '\e05e';
+}
+
+/* line 513, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-bottom-right-line]:before {
+  content: '\e05f';
+}
+
+/* line 517, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-bottom-fill-acute]:before {
+  content: '\e060';
+}
+
+/* line 521, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-bottom-fill-angled]:before {
+  content: '\e061';
+}
+
+/* line 525, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-bottom-fill]:before {
+  content: '\e062';
+}
+
+/* line 529, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-bottom-line]:before {
+  content: '\e063';
+}
+
+/* line 533, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-top-fill-acute]:before {
+  content: '\e064';
+}
+
+/* line 537, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-top-fill-angled]:before {
+  content: '\e065';
+}
+
+/* line 541, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-top-fill]:before {
+  content: '\e066';
+}
+
+/* line 545, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-left-top-line]:before {
+  content: '\e067';
+}
+
+/* line 549, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-bottom-fill-acute]:before {
+  content: '\e068';
+}
+
+/* line 553, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-bottom-fill-angled]:before {
+  content: '\e069';
+}
+
+/* line 557, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-bottom-fill]:before {
+  content: '\e06a';
+}
+
+/* line 561, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-bottom-line]:before {
+  content: '\e06b';
+}
+
+/* line 565, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-top-fill-acute]:before {
+  content: '\e06c';
+}
+
+/* line 569, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-top-fill-angled]:before {
+  content: '\e06d';
+}
+
+/* line 573, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-top-fill]:before {
+  content: '\e06e';
+}
+
+/* line 577, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-right-top-line]:before {
+  content: '\e06f';
+}
+
+/* line 581, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-left-fill-acute]:before {
+  content: '\e070';
+}
+
+/* line 585, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-left-fill-angled]:before {
+  content: '\e071';
+}
+
+/* line 589, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-left-fill]:before {
+  content: '\e072';
+}
+
+/* line 593, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-left-line]:before {
+  content: '\e073';
+}
+
+/* line 597, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-right-fill-acute]:before {
+  content: '\e074';
+}
+
+/* line 601, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-right-fill-angled]:before {
+  content: '\e075';
+}
+
+/* line 605, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-right-fill]:before {
+  content: '\e076';
+}
+
+/* line 609, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-thick-top-right-line]:before {
+  content: '\e077';
+}
+
+/* line 613, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-left-fill-acute]:before {
+  content: '\e078';
+}
+
+/* line 617, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-left-fill-angled]:before {
+  content: '\e079';
+}
+
+/* line 621, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-left-fill]:before {
+  content: '\e07a';
+}
+
+/* line 625, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-left-line]:before {
+  content: '\e07b';
+}
+
+/* line 629, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-right-fill-acute]:before {
+  content: '\e07c';
+}
+
+/* line 633, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-right-fill-angled]:before {
+  content: '\e07d';
+}
+
+/* line 637, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-right-fill]:before {
+  content: '\e07e';
+}
+
+/* line 641, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-angle-top-right-line]:before {
+  content: '\e07f';
+}
+
+/* line 645, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-acute]:before {
+  content: '\e080';
+}
+
+/* line 649, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-angled]:before {
+  content: '\e081';
+}
+
+/* line 653, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-large-acute]:before {
+  content: '\e082';
+}
+
+/* line 657, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-large-angled]:before {
+  content: '\e083';
+}
+
+/* line 661, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-large-oblique]:before {
+  content: '\e084';
+}
+
+/* line 665, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-large]:before {
+  content: '\e085';
+}
+
+/* line 669, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill-oblique]:before {
+  content: '\e086';
+}
+
+/* line 673, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-fill]:before {
+  content: '\e087';
+}
+
+/* line 677, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line-acute]:before {
+  content: '\e088';
+}
+
+/* line 681, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line-large-acute]:before {
+  content: '\e089';
+}
+
+/* line 685, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line-large-oblique]:before {
+  content: '\e08a';
+}
+
+/* line 689, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line-large]:before {
+  content: '\e08b';
+}
+
+/* line 693, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line-oblique]:before {
+  content: '\e08c';
+}
+
+/* line 697, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-right-line]:before {
+  content: '\e08d';
+}
+
+/* line 701, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-acute]:before {
+  content: '\e08e';
+}
+
+/* line 705, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-angled]:before {
+  content: '\e08f';
+}
+
+/* line 709, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-large-acute]:before {
+  content: '\e090';
+}
+
+/* line 713, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-large-angled]:before {
+  content: '\e091';
+}
+
+/* line 717, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-large-oblique]:before {
+  content: '\e092';
+}
+
+/* line 721, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-large]:before {
+  content: '\e093';
+}
+
+/* line 725, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill-oblique]:before {
+  content: '\e094';
+}
+
+/* line 729, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-fill]:before {
+  content: '\e095';
+}
+
+/* line 733, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-acute]:before {
+  content: '\e096';
+}
+
+/* line 737, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-angled]:before {
+  content: '\e097';
+}
+
+/* line 741, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-large-acute]:before {
+  content: '\e098';
+}
+
+/* line 745, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-large-angled]:before {
+  content: '\e099';
+}
+
+/* line 749, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-large-oblique]:before {
+  content: '\e09a';
+}
+
+/* line 753, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-large]:before {
+  content: '\e09b';
+}
+
+/* line 757, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill-oblique]:before {
+  content: '\e09c';
+}
+
+/* line 761, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-fill]:before {
+  content: '\e09d';
+}
+
+/* line 765, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line-acute]:before {
+  content: '\e09e';
+}
+
+/* line 769, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line-large-acute]:before {
+  content: '\e09f';
+}
+
+/* line 773, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line-large-oblique]:before {
+  content: '\e0a0';
+}
+
+/* line 777, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line-large]:before {
+  content: '\e0a1';
+}
+
+/* line 781, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line-oblique]:before {
+  content: '\e0a2';
+}
+
+/* line 785, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-left-line]:before {
+  content: '\e0a3';
+}
+
+/* line 789, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line-acute]:before {
+  content: '\e0a4';
+}
+
+/* line 793, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line-large-acute]:before {
+  content: '\e0a5';
+}
+
+/* line 797, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line-large-oblique]:before {
+  content: '\e0a6';
+}
+
+/* line 801, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line-large]:before {
+  content: '\e0a7';
+}
+
+/* line 805, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line-oblique]:before {
+  content: '\e0a8';
+}
+
+/* line 809, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-line]:before {
+  content: '\e0a9';
+}
+
+/* line 813, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-acute]:before {
+  content: '\e0aa';
+}
+
+/* line 817, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-angled]:before {
+  content: '\e0ab';
+}
+
+/* line 821, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-large-acute]:before {
+  content: '\e0ac';
+}
+
+/* line 825, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-large-angled]:before {
+  content: '\e0ad';
+}
+
+/* line 829, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-large-oblique]:before {
+  content: '\e0ae';
+}
+
+/* line 833, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-large]:before {
+  content: '\e0af';
+}
+
+/* line 837, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill-oblique]:before {
+  content: '\e0b0';
+}
+
+/* line 841, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-fill]:before {
+  content: '\e0b1';
+}
+
+/* line 845, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line-acute]:before {
+  content: '\e0b2';
+}
+
+/* line 849, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line-large-acute]:before {
+  content: '\e0b3';
+}
+
+/* line 853, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line-large-oblique]:before {
+  content: '\e0b4';
+}
+
+/* line 857, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line-large]:before {
+  content: '\e0b5';
+}
+
+/* line 861, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line-oblique]:before {
+  content: '\e0b6';
+}
+
+/* line 865, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-bottom-right-line]:before {
+  content: '\e0b7';
+}
+
+/* line 869, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-acute]:before {
+  content: '\e0b8';
+}
+
+/* line 873, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-angled]:before {
+  content: '\e0b9';
+}
+
+/* line 877, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-large-acute]:before {
+  content: '\e0ba';
+}
+
+/* line 881, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-large-angled]:before {
+  content: '\e0bb';
+}
+
+/* line 885, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-large-oblique]:before {
+  content: '\e0bc';
+}
+
+/* line 889, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-large]:before {
+  content: '\e0bd';
+}
+
+/* line 893, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill-oblique]:before {
+  content: '\e0be';
+}
+
+/* line 897, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-fill]:before {
+  content: '\e0bf';
+}
+
+/* line 901, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line-acute]:before {
+  content: '\e0c0';
+}
+
+/* line 905, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line-large-acute]:before {
+  content: '\e0c1';
+}
+
+/* line 909, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line-large-oblique]:before {
+  content: '\e0c2';
+}
+
+/* line 913, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line-large]:before {
+  content: '\e0c3';
+}
+
+/* line 917, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line-oblique]:before {
+  content: '\e0c4';
+}
+
+/* line 921, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-left-line]:before {
+  content: '\e0c5';
+}
+
+/* line 925, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-acute]:before {
+  content: '\e0c6';
+}
+
+/* line 929, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-angled]:before {
+  content: '\e0c7';
+}
+
+/* line 933, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-large-acute]:before {
+  content: '\e0c8';
+}
+
+/* line 937, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-large-angled]:before {
+  content: '\e0c9';
+}
+
+/* line 941, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-large-oblique]:before {
+  content: '\e0ca';
+}
+
+/* line 945, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-large]:before {
+  content: '\e0cb';
+}
+
+/* line 949, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill-oblique]:before {
+  content: '\e0cc';
+}
+
+/* line 953, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-fill]:before {
+  content: '\e0cd';
+}
+
+/* line 957, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line-acute]:before {
+  content: '\e0ce';
+}
+
+/* line 961, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line-large-acute]:before {
+  content: '\e0cf';
+}
+
+/* line 965, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line-large-oblique]:before {
+  content: '\e0d0';
+}
+
+/* line 969, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line-large]:before {
+  content: '\e0d1';
+}
+
+/* line 973, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line-oblique]:before {
+  content: '\e0d2';
+}
+
+/* line 977, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-right-line]:before {
+  content: '\e0d3';
+}
+
+/* line 981, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-acute]:before {
+  content: '\e0d4';
+}
+
+/* line 985, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-angled]:before {
+  content: '\e0d5';
+}
+
+/* line 989, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-large-acute]:before {
+  content: '\e0d6';
+}
+
+/* line 993, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-large-angled]:before {
+  content: '\e0d7';
+}
+
+/* line 997, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-large-oblique]:before {
+  content: '\e0d8';
+}
+
+/* line 1001, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-large]:before {
+  content: '\e0d9';
+}
+
+/* line 1005, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill-oblique]:before {
+  content: '\e0da';
+}
+
+/* line 1009, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-fill]:before {
+  content: '\e0db';
+}
+
+/* line 1013, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-acute]:before {
+  content: '\e0dc';
+}
+
+/* line 1017, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-angled]:before {
+  content: '\e0dd';
+}
+
+/* line 1021, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-large-acute]:before {
+  content: '\e0de';
+}
+
+/* line 1025, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-large-angled]:before {
+  content: '\e0df';
+}
+
+/* line 1029, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-large-oblique]:before {
+  content: '\e0e0';
+}
+
+/* line 1033, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-large]:before {
+  content: '\e0e1';
+}
+
+/* line 1037, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill-oblique]:before {
+  content: '\e0e2';
+}
+
+/* line 1041, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-fill]:before {
+  content: '\e0e3';
+}
+
+/* line 1045, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line-acute]:before {
+  content: '\e0e4';
+}
+
+/* line 1049, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line-large-acute]:before {
+  content: '\e0e5';
+}
+
+/* line 1053, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line-large-oblique]:before {
+  content: '\e0e6';
+}
+
+/* line 1057, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line-large]:before {
+  content: '\e0e7';
+}
+
+/* line 1061, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line-oblique]:before {
+  content: '\e0e8';
+}
+
+/* line 1065, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-left-line]:before {
+  content: '\e0e9';
+}
+
+/* line 1069, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line-acute]:before {
+  content: '\e0ea';
+}
+
+/* line 1073, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line-large-acute]:before {
+  content: '\e0eb';
+}
+
+/* line 1077, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line-large-oblique]:before {
+  content: '\e0ec';
+}
+
+/* line 1081, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line-large]:before {
+  content: '\e0ed';
+}
+
+/* line 1085, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line-oblique]:before {
+  content: '\e0ee';
+}
+
+/* line 1089, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-line]:before {
+  content: '\e0ef';
+}
+
+/* line 1093, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-acute]:before {
+  content: '\e0f0';
+}
+
+/* line 1097, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-angled]:before {
+  content: '\e0f1';
+}
+
+/* line 1101, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-large-acute]:before {
+  content: '\e0f2';
+}
+
+/* line 1105, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-large-angled]:before {
+  content: '\e0f3';
+}
+
+/* line 1109, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-large-oblique]:before {
+  content: '\e0f4';
+}
+
+/* line 1113, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-large]:before {
+  content: '\e0f5';
+}
+
+/* line 1117, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill-oblique]:before {
+  content: '\e0f6';
+}
+
+/* line 1121, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-fill]:before {
+  content: '\e0f7';
+}
+
+/* line 1125, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line-acute]:before {
+  content: '\e0f8';
+}
+
+/* line 1129, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line-large-acute]:before {
+  content: '\e0f9';
+}
+
+/* line 1133, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line-large-oblique]:before {
+  content: '\e0fa';
+}
+
+/* line 1137, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line-large]:before {
+  content: '\e0fb';
+}
+
+/* line 1141, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line-oblique]:before {
+  content: '\e0fc';
+}
+
+/* line 1145, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-thick-top-right-line]:before {
+  content: '\e0fd';
+}
+
+/* line 1149, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-acute]:before {
+  content: '\e0fe';
+}
+
+/* line 1153, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-angled]:before {
+  content: '\e0ff';
+}
+
+/* line 1157, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-large-acute]:before {
+  content: '\e100';
+}
+
+/* line 1161, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-large-angled]:before {
+  content: '\e101';
+}
+
+/* line 1165, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-large-oblique]:before {
+  content: '\e102';
+}
+
+/* line 1169, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-large]:before {
+  content: '\e103';
+}
+
+/* line 1173, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill-oblique]:before {
+  content: '\e104';
+}
+
+/* line 1177, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-fill]:before {
+  content: '\e105';
+}
+
+/* line 1181, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-acute]:before {
+  content: '\e106';
+}
+
+/* line 1185, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-angled]:before {
+  content: '\e107';
+}
+
+/* line 1189, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-large-acute]:before {
+  content: '\e108';
+}
+
+/* line 1193, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-large-angled]:before {
+  content: '\e109';
+}
+
+/* line 1197, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-large-oblique]:before {
+  content: '\e10a';
+}
+
+/* line 1201, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-large]:before {
+  content: '\e10b';
+}
+
+/* line 1205, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill-oblique]:before {
+  content: '\e10c';
+}
+
+/* line 1209, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-fill]:before {
+  content: '\e10d';
+}
+
+/* line 1213, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line-acute]:before {
+  content: '\e10e';
+}
+
+/* line 1217, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line-large-acute]:before {
+  content: '\e10f';
+}
+
+/* line 1221, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line-large-oblique]:before {
+  content: '\e110';
+}
+
+/* line 1225, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line-large]:before {
+  content: '\e111';
+}
+
+/* line 1229, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line-oblique]:before {
+  content: '\e112';
+}
+
+/* line 1233, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-left-line]:before {
+  content: '\e113';
+}
+
+/* line 1237, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line-acute]:before {
+  content: '\e114';
+}
+
+/* line 1241, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line-large-acute]:before {
+  content: '\e115';
+}
+
+/* line 1245, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line-large-oblique]:before {
+  content: '\e116';
+}
+
+/* line 1249, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line-large]:before {
+  content: '\e117';
+}
+
+/* line 1253, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line-oblique]:before {
+  content: '\e118';
+}
+
+/* line 1257, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-line]:before {
+  content: '\e119';
+}
+
+/* line 1261, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-acute]:before {
+  content: '\e11a';
+}
+
+/* line 1265, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-angled]:before {
+  content: '\e11b';
+}
+
+/* line 1269, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-large-acute]:before {
+  content: '\e11c';
+}
+
+/* line 1273, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-large-angled]:before {
+  content: '\e11d';
+}
+
+/* line 1277, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-large-oblique]:before {
+  content: '\e11e';
+}
+
+/* line 1281, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-large]:before {
+  content: '\e11f';
+}
+
+/* line 1285, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill-oblique]:before {
+  content: '\e120';
+}
+
+/* line 1289, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-fill]:before {
+  content: '\e121';
+}
+
+/* line 1293, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line-acute]:before {
+  content: '\e122';
+}
+
+/* line 1297, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line-large-acute]:before {
+  content: '\e123';
+}
+
+/* line 1301, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line-large-oblique]:before {
+  content: '\e124';
+}
+
+/* line 1305, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line-large]:before {
+  content: '\e125';
+}
+
+/* line 1309, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line-oblique]:before {
+  content: '\e126';
+}
+
+/* line 1313, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=arrow-top-right-line]:before {
+  content: '\e127';
+}
+
+/* line 1317, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=audio-spectrum]:before {
+  content: '\e128';
+}
+
+/* line 1321, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=audio]:before {
+  content: '\e129';
+}
+
+/* line 1325, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=ban]:before {
+  content: '\e12a';
+}
+
+/* line 1329, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bar-chart]:before {
+  content: '\e12b';
+}
+
+/* line 1333, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=basket]:before {
+  content: '\e12c';
+}
+
+/* line 1337, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=battery]:before {
+  content: '\e12d';
+}
+
+/* line 1341, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=beaker]:before {
+  content: '\e12e';
+}
+
+/* line 1345, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bell]:before {
+  content: '\e12f';
+}
+
+/* line 1349, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bitcoin-address]:before {
+  content: '\e130';
+}
+
+/* line 1353, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bitcoin-block]:before {
+  content: '\e131';
+}
+
+/* line 1357, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bitcoin-transaction]:before {
+  content: '\e132';
+}
+
+/* line 1361, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bitcoin]:before {
+  content: '\e133';
+}
+
+/* line 1365, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bluetooth]:before {
+  content: '\e134';
+}
+
+/* line 1369, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bold]:before {
+  content: '\e135';
+}
+
+/* line 1373, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=book]:before {
+  content: '\e136';
+}
+
+/* line 1377, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bookmark]:before {
+  content: '\e137';
+}
+
+/* line 1381, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=box]:before {
+  content: '\e138';
+}
+
+/* line 1385, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=brain]:before {
+  content: '\e139';
+}
+
+/* line 1389, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=briefcase]:before {
+  content: '\e13a';
+}
+
+/* line 1393, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=british-pound]:before {
+  content: '\e13b';
+}
+
+/* line 1397, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=browser-type-chrome]:before {
+  content: '\e13c';
+}
+
+/* line 1401, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=browser-type-firefox]:before {
+  content: '\e13d';
+}
+
+/* line 1405, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=browser-type-internetexplorer]:before {
+  content: '\e13e';
+}
+
+/* line 1409, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=browser-type-safari]:before {
+  content: '\e13f';
+}
+
+/* line 1413, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=browser]:before {
+  content: '\e140';
+}
+
+/* line 1417, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=brush]:before {
+  content: '\e141';
+}
+
+/* line 1421, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bug]:before {
+  content: '\e142';
+}
+
+/* line 1425, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=bullhorn]:before {
+  content: '\e143';
+}
+
+/* line 1429, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=calculator]:before {
+  content: '\e144';
+}
+
+/* line 1433, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=calendar]:before {
+  content: '\e145';
+}
+
+/* line 1437, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=camera-rangefinder]:before {
+  content: '\e146';
+}
+
+/* line 1441, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=camera-slr]:before {
+  content: '\e147';
+}
+
+/* line 1445, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=caret-bottom]:before {
+  content: '\e148';
+}
+
+/* line 1449, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=caret-left]:before {
+  content: '\e149';
+}
+
+/* line 1453, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=caret-right]:before {
+  content: '\e14a';
+}
+
+/* line 1457, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=caret-top]:before {
+  content: '\e14b';
+}
+
+/* line 1461, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cart]:before {
+  content: '\e14c';
+}
+
+/* line 1465, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=chat]:before {
+  content: '\e14d';
+}
+
+/* line 1469, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=check]:before {
+  content: '\e14e';
+}
+
+/* line 1473, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=chevron-bottom]:before {
+  content: '\e14f';
+}
+
+/* line 1477, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=chevron-left]:before {
+  content: '\e150';
+}
+
+/* line 1481, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=chevron-right]:before {
+  content: '\e151';
+}
+
+/* line 1485, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=chevron-top]:before {
+  content: '\e152';
+}
+
+/* line 1489, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=circle-check]:before {
+  content: '\e153';
+}
+
+/* line 1493, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=circle-x]:before {
+  content: '\e154';
+}
+
+/* line 1497, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=clipboard]:before {
+  content: '\e155';
+}
+
+/* line 1501, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=clock]:before {
+  content: '\e156';
+}
+
+/* line 1505, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cloud-transfer-download]:before {
+  content: '\e157';
+}
+
+/* line 1509, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cloud-transfer-upload]:before {
+  content: '\e158';
+}
+
+/* line 1513, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cloud]:before {
+  content: '\e159';
+}
+
+/* line 1517, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cloudy]:before {
+  content: '\e15a';
+}
+
+/* line 1521, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=code]:before {
+  content: '\e15b';
+}
+
+/* line 1525, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cog]:before {
+  content: '\e15c';
+}
+
+/* line 1529, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=cogs]:before {
+  content: '\e15d';
+}
+
+/* line 1533, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=collapse-down]:before {
+  content: '\e15e';
+}
+
+/* line 1537, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=collapse-left]:before {
+  content: '\e15f';
+}
+
+/* line 1541, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=collapse-right]:before {
+  content: '\e160';
+}
+
+/* line 1545, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=collapse-up]:before {
+  content: '\e161';
+}
+
+/* line 1549, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=command]:before {
+  content: '\e162';
+}
+
+/* line 1553, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=comment-square]:before {
+  content: '\e163';
+}
+
+/* line 1557, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=compass]:before {
+  content: '\e164';
+}
+
+/* line 1561, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=connections]:before {
+  content: '\e165';
+}
+
+/* line 1565, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=contrast]:before {
+  content: '\e166';
+}
+
+/* line 1569, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=copywriting]:before {
+  content: '\e167';
+}
+
+/* line 1573, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=credit-card]:before {
+  content: '\e168';
+}
+
+/* line 1577, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=crop]:before {
+  content: '\e169';
+}
+
+/* line 1581, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=dashboard]:before {
+  content: '\e16a';
+}
+
+/* line 1585, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=data-transfer-download]:before {
+  content: '\e16b';
+}
+
+/* line 1589, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=data-transfer-upload]:before {
+  content: '\e16c';
+}
+
+/* line 1593, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=database]:before {
+  content: '\e16d';
+}
+
+/* line 1597, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=delete]:before {
+  content: '\e16e';
+}
+
+/* line 1601, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=delta]:before {
+  content: '\e16f';
+}
+
+/* line 1605, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=dial]:before {
+  content: '\e170';
+}
+
+/* line 1609, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=document]:before {
+  content: '\e171';
+}
+
+/* line 1613, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=dollar]:before {
+  content: '\e172';
+}
+
+/* line 1617, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=double-quote-sans-left]:before {
+  content: '\e173';
+}
+
+/* line 1621, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=double-quote-sans-right]:before {
+  content: '\e174';
+}
+
+/* line 1625, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=double-quote-serif-left]:before {
+  content: '\e175';
+}
+
+/* line 1629, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=double-quote-serif-right]:before {
+  content: '\e176';
+}
+
+/* line 1633, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=easel]:before {
+  content: '\e177';
+}
+
+/* line 1637, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=eject]:before {
+  content: '\e178';
+}
+
+/* line 1641, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=electric]:before {
+  content: '\e179';
+}
+
+/* line 1645, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=elevator]:before {
+  content: '\e17a';
+}
+
+/* line 1649, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=ellipses]:before {
+  content: '\e17b';
+}
+
+/* line 1653, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=envelope-closed]:before {
+  content: '\e17c';
+}
+
+/* line 1657, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=envelope-open]:before {
+  content: '\e17d';
+}
+
+/* line 1661, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=euro]:before {
+  content: '\e17e';
+}
+
+/* line 1665, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=excerpt]:before {
+  content: '\e17f';
+}
+
+/* line 1669, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=expand-down]:before {
+  content: '\e180';
+}
+
+/* line 1673, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=expand-left]:before {
+  content: '\e181';
+}
+
+/* line 1677, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=expand-right]:before {
+  content: '\e182';
+}
+
+/* line 1681, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=expand-up]:before {
+  content: '\e183';
+}
+
+/* line 1685, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=external-link]:before {
+  content: '\e184';
+}
+
+/* line 1689, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=eye-closed]:before {
+  content: '\e185';
+}
+
+/* line 1693, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=eye-open]:before {
+  content: '\e186';
+}
+
+/* line 1697, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=eyedropper]:before {
+  content: '\e187';
+}
+
+/* line 1701, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-ai]:before {
+  content: '\e188';
+}
+
+/* line 1705, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-css]:before {
+  content: '\e189';
+}
+
+/* line 1709, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-dmg]:before {
+  content: '\e18a';
+}
+
+/* line 1713, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-doc]:before {
+  content: '\e18b';
+}
+
+/* line 1717, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-gif]:before {
+  content: '\e18c';
+}
+
+/* line 1721, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-html]:before {
+  content: '\e18d';
+}
+
+/* line 1725, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-jpg]:before {
+  content: '\e18e';
+}
+
+/* line 1729, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-js]:before {
+  content: '\e18f';
+}
+
+/* line 1733, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-json]:before {
+  content: '\e190';
+}
+
+/* line 1737, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-mov]:before {
+  content: '\e191';
+}
+
+/* line 1741, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-mp3]:before {
+  content: '\e192';
+}
+
+/* line 1745, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-pdf]:before {
+  content: '\e193';
+}
+
+/* line 1749, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-png]:before {
+  content: '\e194';
+}
+
+/* line 1753, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-psd]:before {
+  content: '\e195';
+}
+
+/* line 1757, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-svg]:before {
+  content: '\e196';
+}
+
+/* line 1761, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-txt]:before {
+  content: '\e197';
+}
+
+/* line 1765, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-xls]:before {
+  content: '\e198';
+}
+
+/* line 1769, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-xml]:before {
+  content: '\e199';
+}
+
+/* line 1773, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=file-zip]:before {
+  content: '\e19a';
+}
+
+/* line 1777, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=fire]:before {
+  content: '\e19b';
+}
+
+/* line 1781, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=firefly]:before {
+  content: '\e19c';
+}
+
+/* line 1785, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=flag]:before {
+  content: '\e19d';
+}
+
+/* line 1789, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=flash]:before {
+  content: '\e19e';
+}
+
+/* line 1793, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=folder]:before {
+  content: '\e19f';
+}
+
+/* line 1797, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=fork]:before {
+  content: '\e1a0';
+}
+
+/* line 1801, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=fullscreen-enter]:before {
+  content: '\e1a1';
+}
+
+/* line 1805, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=fullscreen-exit]:before {
+  content: '\e1a2';
+}
+
+/* line 1809, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=funnel]:before {
+  content: '\e1a3';
+}
+
+/* line 1813, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=game-controller]:before {
+  content: '\e1a4';
+}
+
+/* line 1817, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=globe]:before {
+  content: '\e1a5';
+}
+
+/* line 1821, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=graph]:before {
+  content: '\e1a6';
+}
+
+/* line 1825, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=grid-four-up]:before {
+  content: '\e1a7';
+}
+
+/* line 1829, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=grid-three-up]:before {
+  content: '\e1a8';
+}
+
+/* line 1833, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=grid-two-up]:before {
+  content: '\e1a9';
+}
+
+/* line 1837, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=guides]:before {
+  content: '\e1aa';
+}
+
+/* line 1841, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=hammer]:before {
+  content: '\e1ab';
+}
+
+/* line 1845, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=hand]:before {
+  content: '\e1ac';
+}
+
+/* line 1849, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=hard-drive]:before {
+  content: '\e1ad';
+}
+
+/* line 1853, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=header]:before {
+  content: '\e1ae';
+}
+
+/* line 1857, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=headphones]:before {
+  content: '\e1af';
+}
+
+/* line 1861, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=heart]:before {
+  content: '\e1b0';
+}
+
+/* line 1865, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=history]:before {
+  content: '\e1b1';
+}
+
+/* line 1869, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=home]:before {
+  content: '\e1b2';
+}
+
+/* line 1873, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=image-landscape]:before {
+  content: '\e1b3';
+}
+
+/* line 1877, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=image-portrait]:before {
+  content: '\e1b4';
+}
+
+/* line 1881, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=inbox]:before {
+  content: '\e1b5';
+}
+
+/* line 1885, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=infinity]:before {
+  content: '\e1b6';
+}
+
+/* line 1889, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=info]:before {
+  content: '\e1b7';
+}
+
+/* line 1893, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=inkwell]:before {
+  content: '\e1b8';
+}
+
+/* line 1897, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=iphone]:before {
+  content: '\e1b9';
+}
+
+/* line 1901, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=italic]:before {
+  content: '\e1ba';
+}
+
+/* line 1905, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=justify-center]:before {
+  content: '\e1bb';
+}
+
+/* line 1909, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=justify-left]:before {
+  content: '\e1bc';
+}
+
+/* line 1913, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=justify-right]:before {
+  content: '\e1bd';
+}
+
+/* line 1917, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=key]:before {
+  content: '\e1be';
+}
+
+/* line 1921, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=keyboard]:before {
+  content: '\e1bf';
+}
+
+/* line 1925, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=laptop]:before {
+  content: '\e1c0';
+}
+
+/* line 1929, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=layers]:before {
+  content: '\e1c1';
+}
+
+/* line 1933, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=lightbulb]:before {
+  content: '\e1c2';
+}
+
+/* line 1937, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=lightning-bolt]:before {
+  content: '\e1c3';
+}
+
+/* line 1941, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=lightning]:before {
+  content: '\e1c4';
+}
+
+/* line 1945, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=link-broken]:before {
+  content: '\e1c5';
+}
+
+/* line 1949, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=link-intact]:before {
+  content: '\e1c6';
+}
+
+/* line 1953, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=list-nested]:before {
+  content: '\e1c7';
+}
+
+/* line 1957, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=list-rich]:before {
+  content: '\e1c8';
+}
+
+/* line 1961, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=list]:before {
+  content: '\e1c9';
+}
+
+/* line 1965, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=location]:before {
+  content: '\e1ca';
+}
+
+/* line 1969, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=lock-locked]:before {
+  content: '\e1cb';
+}
+
+/* line 1973, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=lock-unlocked]:before {
+  content: '\e1cc';
+}
+
+/* line 1977, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=loop-circular]:before {
+  content: '\e1cd';
+}
+
+/* line 1981, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=loop-square]:before {
+  content: '\e1ce';
+}
+
+/* line 1985, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=loop]:before {
+  content: '\e1cf';
+}
+
+/* line 1989, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=loupe]:before {
+  content: '\e1d0';
+}
+
+/* line 1993, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=magic-wand]:before {
+  content: '\e1d1';
+}
+
+/* line 1997, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=magnifying-glass]:before {
+  content: '\e1d2';
+}
+
+/* line 2001, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=map-marker]:before {
+  content: '\e1d3';
+}
+
+/* line 2005, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=map]:before {
+  content: '\e1d4';
+}
+
+/* line 2009, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=medal]:before {
+  content: '\e1d5';
+}
+
+/* line 2013, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-pause]:before {
+  content: '\e1d6';
+}
+
+/* line 2017, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-play-circle]:before {
+  content: '\e1d7';
+}
+
+/* line 2021, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-play]:before {
+  content: '\e1d8';
+}
+
+/* line 2025, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-record]:before {
+  content: '\e1d9';
+}
+
+/* line 2029, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-skip-backward]:before {
+  content: '\e1da';
+}
+
+/* line 2033, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-skip-forward]:before {
+  content: '\e1db';
+}
+
+/* line 2037, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-step-backward]:before {
+  content: '\e1dc';
+}
+
+/* line 2041, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-step-forward]:before {
+  content: '\e1dd';
+}
+
+/* line 2045, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=media-stop]:before {
+  content: '\e1de';
+}
+
+/* line 2049, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=medical-cross]:before {
+  content: '\e1df';
+}
+
+/* line 2053, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=menu]:before {
+  content: '\e1e0';
+}
+
+/* line 2057, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=microphone]:before {
+  content: '\e1e1';
+}
+
+/* line 2061, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=minus]:before {
+  content: '\e1e2';
+}
+
+/* line 2065, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=monitor]:before {
+  content: '\e1e3';
+}
+
+/* line 2069, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=moon]:before {
+  content: '\e1e4';
+}
+
+/* line 2073, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=move]:before {
+  content: '\e1e5';
+}
+
+/* line 2077, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=musical-note]:before {
+  content: '\e1e6';
+}
+
+/* line 2081, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=network]:before {
+  content: '\e1e7';
+}
+
+/* line 2085, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=nexus]:before {
+  content: '\e1e8';
+}
+
+/* line 2089, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=open-source]:before {
+  content: '\e1e9';
+}
+
+/* line 2093, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=paperclip]:before {
+  content: '\e1ea';
+}
+
+/* line 2097, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=peace]:before {
+  content: '\e1eb';
+}
+
+/* line 2101, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=pen]:before {
+  content: '\e1ec';
+}
+
+/* line 2105, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=pencil]:before {
+  content: '\e1ed';
+}
+
+/* line 2109, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=people]:before {
+  content: '\e1ee';
+}
+
+/* line 2113, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=person-female]:before {
+  content: '\e1ef';
+}
+
+/* line 2117, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=person-genderless]:before {
+  content: '\e1f0';
+}
+
+/* line 2121, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=person-male]:before {
+  content: '\e1f1';
+}
+
+/* line 2125, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=pie-chart]:before {
+  content: '\e1f2';
+}
+
+/* line 2129, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=pin]:before {
+  content: '\e1f3';
+}
+
+/* line 2133, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=platform-android]:before {
+  content: '\e1f4';
+}
+
+/* line 2137, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=platform-apple]:before {
+  content: '\e1f5';
+}
+
+/* line 2141, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=platform-linux]:before {
+  content: '\e1f6';
+}
+
+/* line 2145, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=platform-microsoft]:before {
+  content: '\e1f7';
+}
+
+/* line 2149, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=plus]:before {
+  content: '\e1f8';
+}
+
+/* line 2153, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=power-standby]:before {
+  content: '\e1f9';
+}
+
+/* line 2157, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=print]:before {
+  content: '\e1fa';
+}
+
+/* line 2161, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=project]:before {
+  content: '\e1fb';
+}
+
+/* line 2165, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=pulse]:before {
+  content: '\e1fc';
+}
+
+/* line 2169, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=puzzle-piece]:before {
+  content: '\e1fd';
+}
+
+/* line 2173, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=question-mark]:before {
+  content: '\e1fe';
+}
+
+/* line 2177, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=radiation]:before {
+  content: '\e1ff';
+}
+
+/* line 2181, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=rainy]:before {
+  content: '\e200';
+}
+
+/* line 2185, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=random]:before {
+  content: '\e201';
+}
+
+/* line 2189, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=ratio]:before {
+  content: '\e202';
+}
+
+/* line 2193, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=reload]:before {
+  content: '\e203';
+}
+
+/* line 2197, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=resize-both]:before {
+  content: '\e204';
+}
+
+/* line 2201, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=resize-height]:before {
+  content: '\e205';
+}
+
+/* line 2205, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=resize-width]:before {
+  content: '\e206';
+}
+
+/* line 2209, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=rocket]:before {
+  content: '\e207';
+}
+
+/* line 2213, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=route]:before {
+  content: '\e208';
+}
+
+/* line 2217, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=rss-alt]:before {
+  content: '\e209';
+}
+
+/* line 2221, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=rss]:before {
+  content: '\e20a';
+}
+
+/* line 2225, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=scissors]:before {
+  content: '\e20b';
+}
+
+/* line 2229, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=screenshot]:before {
+  content: '\e20c';
+}
+
+/* line 2233, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=screwdriver]:before {
+  content: '\e20d';
+}
+
+/* line 2237, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=script]:before {
+  content: '\e20e';
+}
+
+/* line 2241, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=server]:before {
+  content: '\e20f';
+}
+
+/* line 2245, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=settings]:before {
+  content: '\e210';
+}
+
+/* line 2249, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shape-circle]:before {
+  content: '\e211';
+}
+
+/* line 2253, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shape-hexagon]:before {
+  content: '\e212';
+}
+
+/* line 2257, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shape-octagon]:before {
+  content: '\e213';
+}
+
+/* line 2261, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shape-square-rounded]:before {
+  content: '\e214';
+}
+
+/* line 2265, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shape-square]:before {
+  content: '\e215';
+}
+
+/* line 2269, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=share-boxed]:before {
+  content: '\e216';
+}
+
+/* line 2273, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=share]:before {
+  content: '\e217';
+}
+
+/* line 2277, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=shield]:before {
+  content: '\e218';
+}
+
+/* line 2281, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=signal]:before {
+  content: '\e219';
+}
+
+/* line 2285, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=signpost]:before {
+  content: '\e21a';
+}
+
+/* line 2289, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-dropbox]:before {
+  content: '\e21b';
+}
+
+/* line 2293, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-facebook]:before {
+  content: '\e21c';
+}
+
+/* line 2297, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-github]:before {
+  content: '\e21d';
+}
+
+/* line 2301, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-instagram]:before {
+  content: '\e21e';
+}
+
+/* line 2305, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-linkedin]:before {
+  content: '\e21f';
+}
+
+/* line 2309, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-pinterest]:before {
+  content: '\e220';
+}
+
+/* line 2313, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-reddit]:before {
+  content: '\e221';
+}
+
+/* line 2317, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-tumblr]:before {
+  content: '\e222';
+}
+
+/* line 2321, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-twitter]:before {
+  content: '\e223';
+}
+
+/* line 2325, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-vimeo]:before {
+  content: '\e224';
+}
+
+/* line 2329, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=social-youtube]:before {
+  content: '\e225';
+}
+
+/* line 2333, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=sort-ascending]:before {
+  content: '\e226';
+}
+
+/* line 2337, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=sort-descending]:before {
+  content: '\e227';
+}
+
+/* line 2341, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=spreadsheet]:before {
+  content: '\e228';
+}
+
+/* line 2345, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=star]:before {
+  content: '\e229';
+}
+
+/* line 2349, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=sun]:before {
+  content: '\e22a';
+}
+
+/* line 2353, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=syringe]:before {
+  content: '\e22b';
+}
+
+/* line 2357, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tablet]:before {
+  content: '\e22c';
+}
+
+/* line 2361, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tag]:before {
+  content: '\e22d';
+}
+
+/* line 2365, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tags]:before {
+  content: '\e22e';
+}
+
+/* line 2369, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=target]:before {
+  content: '\e22f';
+}
+
+/* line 2373, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=task]:before {
+  content: '\e230';
+}
+
+/* line 2377, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=terminal]:before {
+  content: '\e231';
+}
+
+/* line 2381, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=text]:before {
+  content: '\e232';
+}
+
+/* line 2385, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=thermometer]:before {
+  content: '\e233';
+}
+
+/* line 2389, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=thumb-down]:before {
+  content: '\e234';
+}
+
+/* line 2393, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=thumb-up]:before {
+  content: '\e235';
+}
+
+/* line 2397, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tiara]:before {
+  content: '\e236';
+}
+
+/* line 2401, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=timer]:before {
+  content: '\e237';
+}
+
+/* line 2405, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tint]:before {
+  content: '\e238';
+}
+
+/* line 2409, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=tools]:before {
+  content: '\e239';
+}
+
+/* line 2413, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=transfer]:before {
+  content: '\e23a';
+}
+
+/* line 2417, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=trash]:before {
+  content: '\e23b';
+}
+
+/* line 2421, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=vertical-align-bottom]:before {
+  content: '\e23c';
+}
+
+/* line 2425, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=vertical-align-center]:before {
+  content: '\e23d';
+}
+
+/* line 2429, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=vertical-align-top]:before {
+  content: '\e23e';
+}
+
+/* line 2433, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=video]:before {
+  content: '\e23f';
+}
+
+/* line 2437, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=volume-high]:before {
+  content: '\e240';
+}
+
+/* line 2441, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=volume-low]:before {
+  content: '\e241';
+}
+
+/* line 2445, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=volume-medium]:before {
+  content: '\e242';
+}
+
+/* line 2449, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=volume-off]:before {
+  content: '\e243';
+}
+
+/* line 2453, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=warning]:before {
+  content: '\e244';
+}
+
+/* line 2457, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=wifi]:before {
+  content: '\e245';
+}
+
+/* line 2461, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=wrench]:before {
+  content: '\e246';
+}
+
+/* line 2465, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=x]:before {
+  content: '\e247';
+}
+
+/* line 2469, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=yen]:before {
+  content: '\e248';
+}
+
+/* line 2473, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=zoom-in]:before {
+  content: '\e249';
+}
+
+/* line 2477, ../scss/iconic-glyphs.scss */
+.iconic[data-glyph=zoom-out]:before {
+  content: '\e24a';
+}
+
+/*# sourceMappingURL=iconic-glyphs.css.map */

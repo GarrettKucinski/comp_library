@@ -26,6 +26,7 @@
 //
 // https://medium.com/p/8e51498c3713
 // ==========
+
 @mixin type-scale($scale, $map: $type-scale) {
   $font-size: map-get(map-get($map, $scale), font-size);
   $base-lines: map-get(map-get($map, $scale), base-lines);
@@ -38,7 +39,9 @@
 }
 
 // ========
-// Generic component creation mixin -- mainly used as a base to create custom components
+// Generic component creation mixin
+// --------
+// mainly used as a base to create custom components
 // ========
 
 @mixin comp-gen($palette) {
@@ -46,11 +49,11 @@
 		.#{$name}.#{$palette} {
 			background: $color;
 			color: darken($color, 40%);
-			&:after {
+			&:before {
 				content: '#{$name}';
 			}
 			@if $name == disabled {
-				cursor: default;
+				cursor: not-allowed;
 				&:hover {
 					border: 1px solid $app-background;
 				}
@@ -61,8 +64,8 @@
 			}
       @if $palette == alerts {
         border: 1px solid darken($color, 40%);
-        &:after {
-          content: 'This is a(n) #{$name} alert!';
+        &:before {
+          content: 'This is a #{$name} alert!';
         }
       }
 			@content;
@@ -136,6 +139,7 @@
 // -----
 // Changes background color and text color when text is selected
 // ==========
+
 @mixin selection($bgColor, $textColor) {
   &::-moz-selection {
     background: $bgColor;
