@@ -12,7 +12,10 @@
 	<!-- build:css(/css) main.css -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- endbuild -->
+
 	<script src="scripts/custom.js"></script>
+	<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+	<link rel="import" href="elements/element.html">
 	<base href="/"></head>
 <body>
 
@@ -54,6 +57,8 @@ applications this should be the correct size. Lorem ipsum dolor sit amet, consec
 					</div>
 				</section>
 
+				<my-element></my-element>
+
 		<!-- Button styles  -->
 
 		<section class="app-buttons">
@@ -88,8 +93,10 @@ applications this should be the correct size. Lorem ipsum dolor sit amet, consec
 
 	</div>
 
-	<!-- bower:js -->
-	<!-- endbower -->
+	<!-- build:js(.) scripts/vendor.js -->
+  <!-- bower:js -->
 
+  <!-- endbower -->
+  <!-- endbuild -->
 </body>
 </html>

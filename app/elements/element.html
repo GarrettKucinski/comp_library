@@ -1,0 +1,17 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<polymer-element name="my-element">
+  <template>
+    This is <b>{{owner}}</b>'s name-tag element.
+    <h1>This is an h1 inside the Polymer element</h1>
+    <img src='//placehold.it/600x400/013e89/FFFFFF.png'/>
+  </template>
+  <script>
+    Polymer({
+      owner: "Garrett",
+      ready: function() {
+        this.$.el.textContent = this.owner + " is ready!";
+      }
+    });
+  </script>
+</polymer-element>

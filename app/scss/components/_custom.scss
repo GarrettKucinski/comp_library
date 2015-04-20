@@ -17,5 +17,5 @@
 .style-guide-heading {
 	@include font-size(3);
 	padding-bottom: 50px;
-	color: lightgray;
+	color: gc(grayscale, xx-light);
 }
