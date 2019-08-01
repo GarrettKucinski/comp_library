@@ -2,7 +2,16 @@
   "name": "comp_library",
   "version": "1.0.0",
   "description": "A library of components and styles to bootstrap an application for development. It consists of modular architecture, coding best practices, DRY principles and is set up for ease and speed of development and maintenance.",
-  "dependencies": {},
+  "dependencies": {
+    "@bower_components/breakpoint-sass": "git://github.com/Team-Sass/breakpoint.git#~2.5.0",
+    "@bower_components/core-component-page": "git://github.com/Polymer/core-component-page.git#^0.5",
+    "@bower_components/meyer-reset": "git://github.com/adamstac/meyer-reset.git#*",
+    "@bower_components/polymer": "git://github.com/Polymer/polymer.git#^0.5",
+    "@bower_components/sassy-maps": "git://github.com/Team-Sass/Sassy-Maps.git#<1.0.0",
+    "@bower_components/susy": "git://github.com/ericam/susy.git#~2.2.2",
+    "@bower_components/vertical-rhythms-without-compass": "git://github.com/zellwk/vertical-rhythms-without-compass.git#~1.0.1",
+    "@bower_components/webcomponentsjs": "git://github.com/Polymer/webcomponentsjs.git#^0.5"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
@@ -35,10 +44,12 @@
     "time-grunt": "^0.3.1"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.10.0",
+    "yarn": ">= 1.0.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\""
   },
   "author": "Garrett Kucinski"
 }
